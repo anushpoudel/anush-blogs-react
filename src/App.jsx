@@ -5,8 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BlogDetails from "./BlogDetails";
 import NotFound from "./NotFound";
 
-//npx json-server --watch data/db.json --port 8000
-
 function App() {
   return (
     <Router>
